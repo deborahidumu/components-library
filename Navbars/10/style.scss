@@ -1,0 +1,163 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-menu {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 4%;
+  min-height: 60px;
+}
+
+.logo-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  width: fit-content;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 2rem;
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
+  }
+
+  li {
+    padding: 0 0.5rem;
+    width: 100px;
+  }
+}
+
+.logo {
+  padding-right: 3rem;
+}
+
+.buttons-container {
+  text-align: right;
+}
+
+button {
+  border: 1px solid #000;
+  width: 100px;
+  padding: 10px 0;
+  outline: none;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #888;
+    color: #000;
+  }
+}
+
+.solid {
+  color: #fff;
+  background-color: #000;
+}
+
+.transparent {
+  margin-right: 0.5rem;
+}
+
+.icon {
+  margin: 2px;
+}
+
+.sub-menu {
+  position: absolute;
+  top: 10vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  border-top: 1px solid #000;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+
+  h5 {
+    font-size: 12px;
+    margin-bottom: 8%;
+  }
+
+  .blog {
+    width: fit-content;
+    width: 100%;
+    display: flex;
+
+    h5 {
+      margin-bottom: 4%;
+      margin-left: 30px;
+    }
+
+    .article-container {
+      margin-left: 30px;
+      margin-top: 35px;
+      display: flex;
+      margin-bottom: 1rem;
+
+      img {
+        width: 160px;
+        height: 100px;
+      }
+
+      .article {
+        margin-left: 3%;
+
+        .article-title {
+          margin: 0;
+          font-size: 13px;
+          margin-bottom: 2%;
+        }
+
+        p {
+          font-size: 11px;
+          margin: 0;
+          line-height: 16px;
+        }
+
+        a {
+          color: #000;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .side-links {
+    box-sizing: border-box;
+    padding-left: 60px;
+
+    h5 {
+      margin-bottom: 5%;
+      margin-top: 30px;
+    }
+    a {
+      display: block;
+      font-size: 11px;
+      margin-bottom: 4%;
+    }
+  }
+}
+
+.hover {
+  display: grid;
+}

@@ -1,0 +1,117 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  min-height: 8vh;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.links {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 2rem;
+}
+.links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.links a:hover {
+  border-bottom: 2px solid #000;
+}
+.links li {
+  padding: 0 1rem;
+}
+
+.logo {
+  padding-right: 3rem;
+  margin-left: 5%;
+}
+
+.buttons-container {
+  text-align: right;
+}
+
+button {
+  border: 1px solid #000;
+  width: 100px;
+  padding: 10px 0;
+  outline: none;
+  background-color: #fff;
+  margin-right: 0.5rem;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #888;
+  color: #000;
+}
+
+.solid {
+  color: #fff;
+  background-color: #000;
+}
+
+.icon {
+  margin: 2px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.drop-menu {
+  position: absolute;
+  background-color: #fff;
+  width: 300px;
+  padding: 1%;
+  display: none;
+  justify-content: center;
+  border: 1px solid #000;
+  top: 30px;
+  right: -75%;
+  padding-top: 20px;
+}
+.drop-menu .content-container {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.drop-menu .content-container i {
+  font-size: 14px;
+  margin-top: 3px;
+}
+.drop-menu .content-container .content {
+  margin-left: 5%;
+}
+.drop-menu .content-container .content .content-title {
+  margin: 0;
+  font-size: 13px;
+  margin-bottom: 1%;
+}
+.drop-menu .content-container .content p {
+  font-size: 11px;
+  margin: 0;
+  line-height: 16px;
+}
+
+.hover {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,104 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4%;
+  height: 10vh;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  width: 100px;
+  padding: 10px 0;
+  outline: none;
+  margin-right: 0.5rem;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  margin-right: 40px;
+}
+button:hover {
+  background-color: #888;
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+.button-container i {
+  display: none;
+}
+
+i {
+  font-size: 22px;
+}
+
+.drop-menu {
+  height: 90vh;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: none;
+}
+.drop-menu ul {
+  padding: 0;
+  margin: 0;
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  box-sizing: border-box;
+  padding-left: 8%;
+}
+.drop-menu ul div:nth-child(1) {
+  padding-right: 8%;
+}
+.drop-menu ul li {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 0;
+  margin: 10px;
+}
+.drop-menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.drop-menu .main-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+  height: 8vh;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.bottom-links .socials a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.bottom-links .text h5 {
+  margin: 0;
+}
+
+.show {
+  display: block !important;
+}/*# sourceMappingURL=style.css.map */

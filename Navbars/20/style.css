@@ -1,0 +1,151 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4%;
+  height: 10vh;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  width: 100px;
+  padding: 10px 0;
+  outline: none;
+  margin-right: 0.5rem;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  margin-right: 40px;
+}
+button:hover {
+  background-color: #888;
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+.button-container i {
+  display: none;
+}
+
+i {
+  font-size: 22px;
+}
+
+.drop-menu {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: none;
+}
+.drop-menu .first-links-section,
+.drop-menu .second-links-section {
+  align-self: center;
+  padding-bottom: 10%;
+}
+.drop-menu .first-links-section {
+  display: flex;
+  flex-direction: column;
+}
+.drop-menu .first-links-section ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  box-sizing: border-box;
+  padding-left: 8%;
+}
+.drop-menu .first-links-section ul div {
+  padding-right: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.drop-menu .first-links-section ul li {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 0;
+  margin: 10px 0;
+  margin-right: 60px;
+}
+.drop-menu .first-links-section ul li a {
+  text-decoration: none;
+  color: #000;
+  margin: 0;
+}
+
+.socials {
+  margin-top: 24px;
+}
+.socials a:nth-child(1) {
+  margin-left: 0;
+}
+.socials a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.show-body {
+  display: grid !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.second-links-section {
+  width: 75%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.second-links-section .bottom-links-section,
+.second-links-section .top-links-section {
+  padding-left: 2%;
+  padding-bottom: 8%;
+}
+.second-links-section .bottom-links-section h5,
+.second-links-section .top-links-section h5 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.second-links-section .bottom-links-section p,
+.second-links-section .top-links-section p {
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0;
+}
+.second-links-section .top-links-section .smaller-paragraph {
+  font-size: 12px;
+  line-height: 18px;
+}
+.second-links-section .top-links-section .form-container {
+  width: 100%;
+  display: flex;
+  margin: 24px 0;
+}
+.second-links-section .top-links-section .form-container input {
+  width: calc(100% - 126px);
+  margin-right: 16px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.second-links-section .top-links-section .form-container button {
+  width: 110px;
+  margin-right: 0;
+}/*# sourceMappingURL=style.css.map */
